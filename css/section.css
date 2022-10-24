@@ -1,0 +1,59 @@
+.section__header {
+    color: #202124;
+    text-shadow: 1px 2px 3px rgb(112 112 112 / 27%);
+}
+
+.section__header--links {
+    margin: 5px;
+    padding: 10px 0 0 5px;
+}
+
+.section__paragraph {
+    text-align: left;
+    color: #202124;
+}
+
+.section--links {
+    box-shadow: -5px -5px 11px -6px #C4C4C4;
+}
+
+.section__textLink {
+    text-decoration: none;
+    color: #294adf;
+    border-bottom: 1px solid;
+}
+
+.section__importantText {
+    font-weight: 700;
+}
+
+.section__list {
+    text-align: left;
+    list-style-type: "\2713     ";
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 45px;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #294adf;
+}
+
+.section__link:visited {
+    color: #294adf;
+}
+
+.section__link:hover {
+    color: #0e163c;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.section__link:active {
+    color: rgba(22, 48, 166, 0.635);
+}
+
+.section__listItem {
+    margin: 6px 0;
+}

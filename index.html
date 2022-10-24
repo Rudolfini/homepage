@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizytówka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="body__header">
+        <h1>To ja - Konrad</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#programowanie">Programowanie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#table">Filmografia</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class="article">
+            <h2 class="article__header">Siemanko!</h2>
+            <img class="photo js-photo" width="300" src="https://i.postimg.cc/9XDr7Smn/Konrad-Kapica.jpg"
+                alt="Konrad Kapica">
+            <p>
+                <button class="button js-button">Nie podoba mi się zdjęcie</button>
+            </p>
+            <section class="section" id="programowanie">
+                <h2 class="section__header">Dlaczego programowanie?</h2>
+                <p class="section__paragraph">
+                    Cieszę się, że dołączyłem do kursu <a class="section__textLink" rel="noreferrer noopener"
+                        target="_blank" href="https://youcode.pl/zostawiam-maila/">YouCode</a>. Nastąpiło to dość
+                    przypadkowo, ale
+                    może wpłynie to
+                    na
+                    <b>jakość
+                        mojego
+                        życia?</b><br>
+                    Nauka programowania jest czymś, co chodziło mi po głowie
+                    przez
+                    długi
+                    czas i w końcu trafiłem do miejsca gdzie <span class="section__importantText">stanie się to
+                        rzeczywistością</span>.
+                </p>
+                <p class="section__paragraph">
+                    Decyzja o zapisaniu się zapadła na dzień przed. Byłem wtedy na planie zdjęciowym do filmu i
+                    zadałem
+                    sobie
+                    pytanie <i>czy życie w ciągłym stresie, martwiąc się o wypłatę w kolejnym miesiącu oraz czy
+                        spełnię
+                        swoje
+                        marzenia, może w jakiś sposób zależeć ode mnie?</i> <em>Tak! Może!</em> Zapisałem się na
+                    kurs.
+                </p>
+            </section>
+            <section class="section" id="o-mnie">
+                <h2 class="section__header">Trochę o mnie</h2>
+                <p class="section__paragraph">
+                    Z wykształcenia jestem <strong>aktorem oraz muzykiem</strong>. Całe życie zajmowałem się różnymi
+                    dziedzinami
+                    sztuki, więc programowanie jest dla mnie dużą zmianą w codzienności. Bardzo się cieszę na idącą w
+                    moim
+                    kierunku
+                    stabilizację finansową. Uważam, że dzięki temu będę mógł dalej zajmować się sztuką, ale ze spokojną
+                    głową :)
+                </p>
+                <table id="table" class="table">
+                    <caption class="table__caption">Filmy i seriale, w których brałem udział</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="col">Lp.</th>
+                        <th class="table__cell table__header" scope="col">Tytuł</th>
+                        <th class="table__cell table__header" scope="col">Rola</th>
+                        <th class="table__cell table__header" scope="col">Rok produkcji</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">1.</th>
+                        <td class="table__cell">Kraj</td>
+                        <td class="table__cell">Inspektor</td>
+                        <td class="table__cell">2021</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">2.</th>
+                        <td class="table__cell">Zenek</td>
+                        <td class="table__cell">perkusista Mariusz</td>
+                        <td class="table__cell">2020</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">3.</th>
+                        <td class="table__cell">Miasto Długów</td>
+                        <td class="table__cell">Ron</td>
+                        <td class="table__cell" rowspan="2">2019</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">4.</th>
+                        <td class="table__cell">Młody Piłsudski</td>
+                        <td class="table__cell">Świątek</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <section class="section section--links">
+            <h3 class="section__header section__header--links">Zapraszam po więcej!</h3>
+            <ul class="section__list">
+                <li class="section__listItem">
+                    Zobacz moją pełną filmografię na portalu <a class="section__link" rel="noreferrer noopener"
+                        target="_blank" href="https://www.filmpolski.pl/fp/index.php?osoba=11137511"
+                        title="Filmografia - Konrad Kapica">FilmPolski
+                        (otwórz w nowej karcie)
+                    </a>
+                </li>
+                <li class="section__listItem"> Napisz do mnie <a class="section__link"
+                        href="mailto:konrad@gmail.com">e-mail</a>
+                </li>
+                <li class="section__listItem">Zadzwoń <a class="section__link" href="tel:+48.123123123">123 123 123</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">&copy; Dla kursu YouCode 2022</footer>
+</body>
+
+</html>

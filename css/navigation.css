@@ -1,0 +1,40 @@
+.navigation__list {
+    list-style-type: none;
+    outline: 3px solid rgba(136, 135, 135, 0.399);
+    padding: 5px;
+    font-style: italic;
+    border-radius: 50px;
+}
+
+.navigation__item {
+    margin: 20px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #783c0a;
+    background-color: #e2e2e2;
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: 1px solid #783c0a;
+}
+
+.navigation__link:visited {
+    color: #783c0a;
+    background-color: #e2e2e2;
+}
+
+.navigation__link:focus {
+    outline: 2px solid black;
+}
+
+.navigation__link:hover {
+    color: rgb(215, 116, 2);
+    outline: none;
+    background-color: #e2e2e2;
+}
+
+.navigation__link:active {
+    color: #d774026e;
+    background-color: #e2e2e2;
+}
