@@ -1,4 +1,4 @@
-console.log("Aloha!");
+console.log("Aloha! Ten kod jest już w repozytorium Git.");
 
 let buttonElement = document.querySelector(".js-button");
 let photoElement = document.querySelector(".js-photo");
