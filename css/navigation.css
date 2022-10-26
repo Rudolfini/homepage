@@ -1,4 +1,13 @@
+.navigation {
+    width: fit-content;
+    margin: auto;
+}
+
 .navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-items: center;
     list-style-type: none;
     outline: 3px solid rgba(136, 135, 135, 0.399);
     padding: 5px;
@@ -7,7 +16,8 @@
 }
 
 .navigation__item {
-    margin: 20px;
+    margin: 20px 10px;
+    flex-grow: 1;
 }
 
 .navigation__link {
