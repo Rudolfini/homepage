@@ -1,6 +1,7 @@
 .section__header {
     color: #202124;
     text-shadow: 1px 2px 3px rgb(112 112 112 / 27%);
+    text-align: left;
 }
 
 .section__header--links {
