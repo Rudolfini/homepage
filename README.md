@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://rudolfini.github.io/homepage/
+[My homepage](https://rudolfini.github.io/homepage/)
 
 ## Description
 
