@@ -1,11 +1,25 @@
-console.log("Aloha! Ten kod jest już w repozytorium Git.");
+{
+    const welcome = () => {
+        console.log("Aloha! Ten kod jest już w repozytorium Git.");
+    };
 
-let buttonElement = document.querySelector(".js-button");
-let photoElement = document.querySelector(".js-photo");
+    {
+        const buttonElement = document.querySelector(".js-button");
 
-buttonElement.addEventListener("click", () => {
-    photoElement.classList.toggle("photo__hide");
-    buttonElement.innerText = photoElement.classList.contains("photo__hide")
-        ? "Jednak zdjęcie było OK"
-        : "Nie podoba mi się zdjęcie";
-});
+        const togglePhoto = () => {
+            const photoElement = document.querySelector(".js-photo");
+            photoElement.classList.toggle("photo__hide");
+            buttonElement.innerText = photoElement.classList.contains("photo__hide")
+                ? "Jednak zdjęcie było OK"
+                : "Nie podoba mi się zdjęcie";
+        };
+
+        const init = () => {
+            buttonElement.addEventListener("click", togglePhoto);
+
+            welcome();
+        };
+
+        init();
+    };
+}
