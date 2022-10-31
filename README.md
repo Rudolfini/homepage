@@ -1,6 +1,6 @@
 # Konrad Kapica - moja strona
 
-![Konrad](images/Konrad_Kapica.JPG)
+![Preview](images/Homepage_preview.png)
 ## Demo
 
 [My homepage](https://rudolfini.github.io/homepage/)
