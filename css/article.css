@@ -3,26 +3,3 @@
     text-shadow: 1px 2px 3px rgb(112 112 112 / 27%);
 }
 
-.photo {
-    box-shadow: 0px 0px 16px 8px #B2B2B2;
-}
-
-.photo__hide {
-    visibility: collapse;
-    display: none;
-}
-
-.button {
-    color: #783c0a;
-    background-color: #e2e2e2;
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: none;
-    outline: 1px solid #783c0a;
-}
-
-.button:hover {
-    color: rgb(215, 116, 2);
-    outline: none;
-    background-color: #e2e2e2;
-}
